@@ -1,3 +1,12 @@
+function importAll(images) {
+    images.keys().forEach((image) => {
+      console.log(image);
+    });
+  }
+  
+  const images = require.context("./images/", true, /\.png$/);
+  importAll(images);
+
 function menu() {
     const pizzaContent = document.createElement('div');
     const makeYourPizzaContainer = document.createElement('div');
@@ -12,7 +21,7 @@ function menu() {
         pizzaQuatro: {
             name: 'Pizza Quattro Stagioni',
             ingredients: 'Pizza de baza + pepperoni, ciuperci, masline, ardei',
-            image: '../images/pizza/quattrostagioni.png'
+            image: '/images/pizza/quattrostagioni.png'
         },
 
         pizzaQuatro2: {

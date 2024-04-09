@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scripts": { "gitpage": "git subtree push --prefix dist origin gh-pages" },
+    "scripts": {
+      "gitpage": "git subtree push --prefix dist origin gh-pages"
+    },
     "build": "webpack"
   },
   "author": "",
@@ -16,5 +18,8 @@
     "style-loader": "^3.3.4",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "url-loader": "^4.1.1"
   }
 }
