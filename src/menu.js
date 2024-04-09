@@ -380,7 +380,7 @@ function menu() {
         makeYourPizzaTitle.textContent = 'Creeaza pizza ta!';
         makeYourPizzaContainer.textContent = 'Topping-uri:';
         makeYourPizzaImgContainer.textContent = '';
-        makeYourPizzaImg.src = './images/pizza/emptypizza.png';
+        makeYourPizzaImg.src = './images/pizza/emptyPizza.png';
         makeYourPizzaImg.width = '350';
 
         makeYourPizzaImgContainer.setAttribute('class', 'makeYourPizzaImgContainer');
