@@ -3,8 +3,6 @@ import { homePage } from "./home";
 import { menu } from "./menu";
 import './style.css';
 
-
-
 const content = document.querySelector('#content');
 const homebtn = document.querySelector('.home');
 const menubtn = document.querySelector('.menu');

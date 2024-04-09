@@ -1,5 +1,3 @@
-require.context("../images/pizza", true, /\.(png|svg|jpg|gif)$/);
-require.context("../images/toppings", true, /\.(png|svg|jpg|gif)$/);
 function menu() {
     const pizzaContent = document.createElement('div');
     const makeYourPizzaContainer = document.createElement('div');
@@ -14,25 +12,25 @@ function menu() {
         pizzaQuatro: {
             name: 'Pizza Quattro Stagioni',
             ingredients: 'Pizza de baza + pepperoni, ciuperci, masline, ardei',
-            image: '../images/pizza/quattrostagioni.png'
+            image: './images/pizza/quattrostagioni.png'
         },
 
         pizzaQuatro2: {
             name: 'Pizza Quattro Stagioni Amestecat',
             ingredients: 'Pizza de baza + pepperoni, ciuperci, masline, ardei',
-            image: '../images/pizza/quattrostagionimix.png'
+            image: './images/pizza/quattrostagionimix.png'
         },
 
         pizzaMargherita: {
             name: 'Pizza Margherita',
             ingredients: 'Pizza de baza + mozzarella, busuioc',
-            image: '../images/pizza/margherita.png'
+            image: './images/pizza/margherita.png'
         },
 
         pizzaDiavola: {
             name: 'Pizza Diavola',
             ingredients: 'Pizza de baza + salam picant',
-            image: '../images/pizza/diavola.png'
+            image: './images/pizza/diavola.png'
         },
         
         pizzaConTonno: {
