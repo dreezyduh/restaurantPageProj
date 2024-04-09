@@ -1,4 +1,4 @@
-
+require.context("../images/", true, /\.(png|svg|jpg|gif)$/);
 function menu() {
     const pizzaContent = document.createElement('div');
     const makeYourPizzaContainer = document.createElement('div');

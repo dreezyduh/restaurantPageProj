@@ -1,3 +1,4 @@
+import '../images/piroata.png';
 function homePage() {
     const homeContainer = document.createElement('div');
     const restaurantName = document.createElement('div');
