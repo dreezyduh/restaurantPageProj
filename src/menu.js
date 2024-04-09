@@ -1,4 +1,5 @@
-require.context("../images/", true, /\.(png|svg|jpg|gif)$/);
+require.context("../images/pizza", true, /\.(png|svg|jpg|gif)$/);
+require.context("../images/toppings", true, /\.(png|svg|jpg|gif)$/);
 function menu() {
     const pizzaContent = document.createElement('div');
     const makeYourPizzaContainer = document.createElement('div');
