@@ -192,13 +192,13 @@ function menu() {
         creamCheese: {
             name: 'Crema de Branza',
             id: 'creamCheese',
-            image: './images/toppings/creamCheese.png'
+            image: './images/toppings/creamcheese.png'
         },
 
         gradeCheese: {
             name: 'Branza cu Mucegai',
             id: 'gradeCheese',
-            image: './images/toppings/gradeCheese.png'
+            image: './images/toppings/gradecheese.png'
         },
 
         ham: {
